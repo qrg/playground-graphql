@@ -1,4 +1,4 @@
-# Playground GraphQL Server
+# Playground GraphQL
 
 - TypeScript
 - ESLint
