@@ -13,8 +13,11 @@
     "test": "jest --passWithNoTests",
     "lint": "yarn lint:type && yarn lint:eslint && yarn lint:prettier",
     "lint:type": "tsc --noEmit",
-    "lint:eslint": "eslint '**/*.{js,ts}'",
-    "lint:prettier": "prettier --check '**/*.{js,ts,md,yml,yaml,html,json}'"
+    "lint:eslint": "eslint \"**/*.{js,ts}\"",
+    "lint:prettier": "prettier --check \"**/*.{js,ts,md,yml,yaml,html,json}\"",
+    "format": "yarn format:eslint && yarn format:prettier",
+    "format:eslint": "eslint --fix \"**/*.{js,ts}\"",
+    "format:prettier": "prettier --write \"**/*.{js,ts,md,yml,yaml,html,json}\""
   },
   "dependencies": {
     "apollo-server": "3.1.2",
@@ -22,14 +25,15 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
-    "@types/node": "14.17.x",
+    "@types/node": "~14.17.9",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
     "cross-env": "7.0.3",
-    "eslint": "7.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-prettier": "8.3.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.1.0",
     "jest": "^27.0.6",
@@ -41,5 +45,6 @@
   "volta": {
     "node": "14.17.4",
     "yarn": "1.22.11"
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }

@@ -7,14 +7,16 @@ const configs = [
   'plugin:import/warnings',
   'plugin:promise/recommended',
   'plugin:node/recommended',
-  'standard',
+  'airbnb-base',
   'prettier',
 ]
 const configsTs = [
   ...configs,
+  'airbnb-typescript/base',
   'plugin:import/typescript',
   'plugin:@typescript-eslint/recommended',
   'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  'prettier',
 ]
 
 const parserOptions = {
