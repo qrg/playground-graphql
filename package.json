@@ -12,8 +12,10 @@
     "yarn": "1.22.11"
   },
   "packageManager": "yarn@3.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development tsnd --respawn ./src/index.ts",
     "build": "cross-env NODE_ENV=development tsc --project ./tsconfig.json",
     "test": "jest --passWithNoTests",
     "lint": "yarn lint:type && yarn lint:eslint && yarn lint:prettier",
@@ -23,10 +25,6 @@
     "format": "yarn format:eslint && yarn format:prettier",
     "format:eslint": "eslint --fix \"**/*.{js,ts}\"",
     "format:prettier": "prettier --write \"**/*.{js,ts,md,yml,yaml,html,json}\""
-  },
-  "dependencies": {
-    "apollo-server": "3.1.2",
-    "graphql": "15.5.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",

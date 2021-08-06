@@ -108,7 +108,7 @@ module.exports = {
       rules: rulesTs,
     },
     {
-      files: ['./src/**/*.ts', './src/**/*.tsx'],
+      files: ['./packages/**/*.ts', './packages/**/*.tsx'],
       env: {
         node: false,
         browser: true,

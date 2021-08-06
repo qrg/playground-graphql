@@ -1653,7 +1653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"apollo-server@npm:3.1.2":
+"apollo-server@npm:^3.1.2":
   version: 3.1.2
   resolution: "apollo-server@npm:3.1.2"
   dependencies:
@@ -3348,7 +3348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:15.5.1":
+"graphql@npm:^15.5.1":
   version: 15.5.1
   resolution: "graphql@npm:15.5.1"
   checksum: 7e45ae27021e5bafd2a3ce557e708606ff28504aae705654764fa6239b0151d014a90cbd4c68300f4f95a9074820aaee9b1f25b560ff089c8db0b49563e34080
@@ -5302,6 +5302,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"playground-apollo-server@workspace:packages/apollo-server":
+  version: 0.0.0-use.local
+  resolution: "playground-apollo-server@workspace:packages/apollo-server"
+  dependencies:
+    apollo-server: ^3.1.2
+    graphql: ^15.5.1
+  languageName: unknown
+  linkType: soft
+
 "playground-graphql@workspace:.":
   version: 0.0.0-use.local
   resolution: "playground-graphql@workspace:."
@@ -5310,7 +5319,6 @@ __metadata:
     "@types/node": ~14.17.9
     "@typescript-eslint/eslint-plugin": 4.29.0
     "@typescript-eslint/parser": 4.29.0
-    apollo-server: 3.1.2
     cross-env: 7.0.3
     eslint: ^7.32.0
     eslint-config-airbnb-base: ^14.2.1
@@ -5319,7 +5327,6 @@ __metadata:
     eslint-plugin-import: ^2.23.4
     eslint-plugin-node: 11.1.0
     eslint-plugin-promise: 5.1.0
-    graphql: 15.5.1
     jest: ^27.0.6
     prettier: 2.3.2
     ts-jest: ^27.0.4
