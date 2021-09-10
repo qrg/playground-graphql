@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@apollo/client@npm:^3.4.10":
-  version: 3.4.10
-  resolution: "@apollo/client@npm:3.4.10"
+"@apollo/client@npm:^3.4.11":
+  version: 3.4.11
+  resolution: "@apollo/client@npm:3.4.11"
   dependencies:
     "@graphql-typed-document-node/core": ^3.0.0
     "@wry/context": ^0.6.0
@@ -20,7 +20,7 @@ __metadata:
     symbol-observable: ^4.0.0
     ts-invariant: ^0.9.0
     tslib: ^2.3.0
-    zen-observable-ts: ^1.1.0
+    zen-observable-ts: ~1.1.0
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0
     react: ^16.8.0 || ^17.0.0
@@ -30,7 +30,7 @@ __metadata:
       optional: true
     subscriptions-transport-ws:
       optional: true
-  checksum: 2d8a943b082558a43439d9801e868a690f2db1f3f4beccbde04b7b9cda81babc58332fb70eb9a919af2c758c460468da4c8967b101c81898891cbe2ee4b7d92f
+  checksum: 8e068f737a506d4aae6cc63743fd44d20a0afdeda32b4eb84114a23f863331eeb7a7b8098fcdd08817ec2fbad4515d5d89b7a0ac5a915be60cdd4899d8bcf72f
   languageName: node
   linkType: hard
 
@@ -1237,6 +1237,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/zen-observable@npm:0.8.3":
+  version: 0.8.3
+  resolution: "@types/zen-observable@npm:0.8.3"
+  checksum: 08c88354abcf03a2176a2ec32e07da1f25fdad94fbc2f419bea53d77deb04ad4759518b4fe3fc695e61065dd4bdf7c8bd26b5211a6cd5be2233872806bdee48d
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:4.31.0":
   version: 4.31.0
   resolution: "@typescript-eslint/eslint-plugin@npm:4.31.0"
@@ -1561,7 +1568,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "apollo-client@workspace:packages/apollo-client"
   dependencies:
-    "@apollo/client": ^3.4.10
+    "@apollo/client": ^3.4.11
     graphql: ^15.5.3
   languageName: unknown
   linkType: soft
@@ -6929,12 +6936,13 @@ typescript@4.4.3:
   languageName: node
   linkType: hard
 
-"zen-observable-ts@npm:^1.1.0":
-  version: 1.2.2
-  resolution: "zen-observable-ts@npm:1.2.2"
+"zen-observable-ts@npm:~1.1.0":
+  version: 1.1.0
+  resolution: "zen-observable-ts@npm:1.1.0"
   dependencies:
+    "@types/zen-observable": 0.8.3
     zen-observable: 0.8.15
-  checksum: 8df13f7c7523e3aa91fba40416f458a004049b67da6c1267709881d54382510fa98575d012eb14eac45b0f584955d45a424d522663702b97783165d319973f50
+  checksum: 1772727f2c96af228c52b008260e1e4ae512782abc9d4f4a78d1a61913aa3b55ae672ad343ecf6895d9b968b5e3f4a41b5a317702cdc6cd5f6f93bc0dacf8103
   languageName: node
   linkType: hard
 
