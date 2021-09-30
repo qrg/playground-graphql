@@ -9,7 +9,7 @@
   },
   "volta": {
     "node": "14.18.0",
-    "yarn": "1.22.14"
+    "yarn": "1.22.15"
   },
   "packageManager": "yarn@3.0.0",
   "workspaces": [
