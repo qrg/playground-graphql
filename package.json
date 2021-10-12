@@ -5,10 +5,10 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=v14.18.0"
+    "node": ">=v14.18.1"
   },
   "volta": {
-    "node": "14.18.0",
+    "node": "14.18.1",
     "yarn": "1.22.15"
   },
   "packageManager": "yarn@3.0.0",
