@@ -4022,19 +4022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^27.0.0":
-  version: 27.2.5
-  resolution: "jest-diff@npm:27.2.5"
-  dependencies:
-    chalk: ^4.0.0
-    diff-sequences: ^27.0.6
-    jest-get-type: ^27.0.6
-    pretty-format: ^27.2.5
-  checksum: 05a2fd97b52ef4d9f03174f360d5f065478f4de8a08e1347cb5999ecb2cca85581ca112aa34533ddd54efd9d3278a0c3cc5c34de5bdab1f99448e4cd5042263a
-  languageName: node
-  linkType: hard
-
-"jest-diff@npm:^27.3.0":
+"jest-diff@npm:^27.0.0, jest-diff@npm:^27.3.0":
   version: 27.3.0
   resolution: "jest-diff@npm:27.3.0"
   dependencies:
@@ -4357,21 +4345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-util@npm:^27.0.0":
-  version: 27.2.5
-  resolution: "jest-util@npm:27.2.5"
-  dependencies:
-    "@jest/types": ^27.2.5
-    "@types/node": "*"
-    chalk: ^4.0.0
-    graceful-fs: ^4.2.4
-    is-ci: ^3.0.0
-    picomatch: ^2.2.3
-  checksum: e57aaadac0495e92728c6075ce29b1498db78b2e2bb3677dc81f7eceed7d78849ca5a58646f8c69dbfda8e83104d7aa8ae582da0f9c963f89e39dfa8a1316768
-  languageName: node
-  linkType: hard
-
-"jest-util@npm:^27.3.0":
+"jest-util@npm:^27.0.0, jest-util@npm:^27.3.0":
   version: 27.3.0
   resolution: "jest-util@npm:27.3.0"
   dependencies:
@@ -5387,19 +5361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.0, pretty-format@npm:^27.2.5":
-  version: 27.2.5
-  resolution: "pretty-format@npm:27.2.5"
-  dependencies:
-    "@jest/types": ^27.2.5
-    ansi-regex: ^5.0.1
-    ansi-styles: ^5.0.0
-    react-is: ^17.0.1
-  checksum: 83adebba0a1b23c3d289a60e9443665e428c9b74e91cc11b5bba4231ad52b90f5376ab9742ad9e78f955c5c24699904d6baaad7d32c75a220db66a4679332d53
-  languageName: node
-  linkType: hard
-
-"pretty-format@npm:^27.3.0":
+"pretty-format@npm:^27.0.0, pretty-format@npm:^27.3.0":
   version: 27.3.0
   resolution: "pretty-format@npm:27.3.0"
   dependencies:
