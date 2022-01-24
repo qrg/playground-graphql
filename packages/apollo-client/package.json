@@ -2,7 +2,7 @@
   "name": "apollo-client",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.5.7",
+    "@apollo/client": "^3.5.8",
     "graphql": "^15.8.0"
   }
 }
