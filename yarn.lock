@@ -14,7 +14,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:^3.5.9":
+"@apollo/client@npm:^3.5.10":
   version: 3.5.10
   resolution: "@apollo/client@npm:3.5.10"
   dependencies:
@@ -1551,7 +1551,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "apollo-client@workspace:packages/apollo-client"
   dependencies:
-    "@apollo/client": ^3.5.9
+    "@apollo/client": ^3.5.10
     graphql: ^15.8.0
   languageName: unknown
   linkType: soft
