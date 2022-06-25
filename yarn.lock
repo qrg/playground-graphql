@@ -1164,10 +1164,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:~14.18.15":
-  version: 14.18.15
-  resolution: "@types/node@npm:14.18.15"
-  checksum: 7a349547c8d2578e3f0205f5486909449794cd95dfedb868cf470e83c01495dc55cd49ccb698cf11fb213aca7d08646dbc078cadaedb961287d9eeea417ac5f1
+"@types/node@npm:~16.11.41":
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
@@ -5363,7 +5363,7 @@ __metadata:
   resolution: "playground-graphql@workspace:."
   dependencies:
     "@types/jest": ^27.4.1
-    "@types/node": ~14.18.15
+    "@types/node": ~16.11.41
     "@typescript-eslint/eslint-plugin": 4.33.0
     "@typescript-eslint/parser": 4.33.0
     cross-env: 7.0.3
