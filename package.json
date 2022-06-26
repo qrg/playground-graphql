@@ -27,7 +27,7 @@
     "format:prettier": "prettier --write \"**/*.{js,ts,md,yml,yaml,html,json}\""
   },
   "devDependencies": {
-    "@types/jest": "^27.5.2",
+    "@types/jest": "^28.1.3",
     "@types/node": "~16.11.41",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
@@ -39,9 +39,9 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0",
-    "jest": "^27.5.1",
+    "jest": "^28.1.1",
     "prettier": "2.7.1",
-    "ts-jest": "^27.1.5",
+    "ts-jest": "^28.0.5",
     "ts-node-dev": "1.1.8",
     "typescript": "4.7.4"
   }
